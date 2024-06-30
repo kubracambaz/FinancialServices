@@ -29,8 +29,8 @@
 ## Installation
   
    1. Clone the repo
-   
-     https://gitlab.com/bolcom/kubra-cambaz.git
+   ##### Branch Name : feature/JIRA-1_customer_account
+     https://github.com/kubracambaz/FinancialServices.git
      
    2. Import project in IntellJ IDEA
    

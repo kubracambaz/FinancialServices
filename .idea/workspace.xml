@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0e8deb-bebf-4b34-8ee6-924b93b8bb4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/exceptions/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/exceptions/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/exceptions/ExceptionHandlerControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/exceptions/FinancialBusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/financial/account/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/AccountInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/AccountInfoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/AccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/AccountResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/CustomerInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/CustomerInfoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/TransactionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/domain/response/TransactionResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/financial/account/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/service/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/financial/account/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/financial/account/service/CustomerServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf0e8deb-bebf-4b34-8ee6-924b93b8bb4e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719520996817</updated>
-      <workItem from="1719520997864" duration="32483000" />
+      <workItem from="1719520997864" duration="32870000" />
     </task>
     <servers />
   </component>

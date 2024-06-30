@@ -41,17 +41,9 @@ public class CustomerController {
     @ApiOperation(value = "Get customer", nickname = "getCustomer", notes = "Get a customer by id ")
     @GetMapping(value = "/getCustomer", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<CustomerInfoResponse> getCustomer(@RequestParam Long customerId) {
-        List<AccountResponse> accountList = new ArrayList<>();
-        CustomerInfoResponse customerResponse = new CustomerInfoResponse();
+
         CustomerInfoResponseDto responseDto = service.getCustomer(customerId);
-        responseDto.getAccounts().forEach(accountResponseDto ->
-        {
-            AccountResponse accountResponse= modelMapper.map(accountResponseDto, AccountResponse.class);
-            accountList.add(accountResponse);
-        });
-        customerResponse.setAccounts(accountList);
-        customerResponse.setName(responseDto.getName());
-        customerResponse.setSurName(responseDto.getSurName());
+        CustomerInfoResponse customerResponse = modelMapper.map(responseDto,CustomerInfoResponse.class);
         ResponseEntity<CustomerInfoResponse> response = new ResponseEntity<CustomerInfoResponse>(customerResponse, HttpStatus.OK);
         return response;
     }

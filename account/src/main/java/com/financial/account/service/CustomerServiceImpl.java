@@ -42,8 +42,10 @@ public class CustomerServiceImpl implements CustomerService{
         customerInfoResponseDto.setSurName(customer.getSurname());
 
         List<AccountEntity> accounts = customer.getAccounts();
+
         accounts.forEach(account -> {
-            accountInfoList.add(accountService.getAccount( account.getId()));
+            AccountInfoResponseDto accountInfoResponseDto = modelMapper.map(account,AccountInfoResponseDto.class);
+            accountInfoList.add(accountInfoResponseDto);
         });
         customerInfoResponseDto.setAccounts(accountInfoList);
 
